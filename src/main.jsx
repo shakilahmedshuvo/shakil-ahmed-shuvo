@@ -7,14 +7,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Main from './Layout/Main';
+import Banner from './Components/Home/Banner/Banner';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
-    children:[
+    children: [
       {
-        
+        path: '/',
+        element: <Banner />
       }
     ]
   },

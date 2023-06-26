@@ -13,7 +13,7 @@ const Footer = () => {
                 </h2>
                 {/* Social Media Links section start */}
                 <div
-                    className="flex max-w-xl mx-auto text-4xl py-8">
+                    className="flex max-w-xl mx-auto text-3xl py-8">
                     <Link
                         className="ms-auto"
                         to="https://www.facebook.com/iamshakilahmedshuvo">
@@ -21,12 +21,12 @@ const Footer = () => {
                     </Link>
                     <Link
                         className="mx-auto"
-                        to="https://www.facebook.com/iamshakilahmedshuvo">
+                        to="https://github.com/shakilahmedshuvo">
                         <FaGithub />
                     </Link>
                     <Link
                         className="me-auto"
-                        to="https://www.facebook.com/iamshakilahmedshuvo">
+                        to="https://www.linkedin.com/in/shakil-ahmed-408391271/">
                         <FaLinkedin />
                     </Link>
                 </div>

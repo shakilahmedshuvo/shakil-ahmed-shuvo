@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* google font */
 * {
     font-family: 'Poppins', sans-serif;
 }
