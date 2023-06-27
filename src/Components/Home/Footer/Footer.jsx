@@ -6,14 +6,18 @@ const Footer = () => {
         <div
             className="bg-slate-800">
             <div
-                className="text-center text-white max-w-7xl mx-auto pt-10">
+                className="text-center text-white max-w-7xl mx-auto pt-8">
                 <h2
                     className="text-3xl font-bold">
                     Social Media Links
                 </h2>
+                <div
+                    className="pt-5 pb-6">
+                    <hr className="w-[40%] mx-auto" />
+                </div>
                 {/* Social Media Links section start */}
                 <div
-                    className="flex max-w-xl mx-auto text-3xl py-8">
+                    className="flex max-w-xl mx-auto text-3xl pb-8">
                     <Link
                         className="ms-auto"
                         to="https://www.facebook.com/iamshakilahmedshuvo">
