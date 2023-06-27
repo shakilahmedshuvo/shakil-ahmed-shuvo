@@ -3,14 +3,14 @@ import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 
 const ErrorPage = () => {
-    const { error, status } = useRouteError();
+    const { error } = useRouteError();
     return (
         <>
             <NavBar />
-            <div className='text-center my-1'>
+            <div className='text-center'>
                 <div className='lg:w-[50%] sm:w-full mx-auto'>
                     <img
-                        className='mx-auto lg:w-[100%] sm:w-[100%] rounded-lg'
+                        className='mx-auto lg:w-[100%] sm:w-[100%] rounded-lg pt-6'
                         src="https://img.freepik.com/premium-vector/error-404-banner-vector-illustration_18591-530.jpg?w=996"
                         alt="" />
                 </div>
