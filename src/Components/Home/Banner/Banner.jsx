@@ -86,15 +86,14 @@ const Banner = () => {
                             className="flex btn bg-blue-500 text-white hover:bg-blue-400 h-full">
                             <TbDownload className="text-3xl font-bold" /> Download Resume
                         </a>
-                        {/* modal section start */}
                         <div className="">
                             <button
                                 className="btn btn-outline border-2 border-blue-500 w-full text-blue-500 font-bold"
-                                onClick={() => window.my_modal_1.showModal()}>
+                                onClick={() => window.my_modal_2.showModal()}>
                                 <FiPhone className="text-xl font-bold" /> Contact
                             </button>
                             <dialog
-                                id="my_modal_1"
+                                id="my_modal_2"
                                 className="modal">
                                 <form
                                     method="dialog"
