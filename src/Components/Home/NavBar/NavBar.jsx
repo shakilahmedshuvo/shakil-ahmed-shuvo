@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { FaHome, FaChalkboardTeacher, FaListAlt } from "react-icons/fa";
-import { RiContactsFill } from "react-icons/ri";
+import { FaHome, FaChalkboardTeacher, FaRegAddressBook } from "react-icons/fa";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { useEffect, useState } from "react";
 
 // nav item 
@@ -20,7 +20,7 @@ const navBarItems =
         </li>
         <li className="text-lg">
             <Link to="instructor">
-                <RiContactsFill />Contact
+                <FaRegAddressBook />Contact
             </Link>
         </li>
         {/* conditional rendering */}
@@ -48,9 +48,9 @@ const NavBar = () => {
     }, [theme]);
     return (
         <div
-            className="font-bold fixed z-10 w-full bg-yellow-50">
+            className="font-bold fixed z-10 w-full bg-black">
             <div
-                className="navbar text-white max-w-7xl mx-auto">
+                className="navbar text-white max-w-7xl mx-auto p-0">
                 <div className="navbar-start ">
                     <Link
                         to='/'
@@ -102,7 +102,7 @@ const NavBar = () => {
                         <label
                             tabIndex={0}
                             className="btn btn-ghost lg:hidden">
-                            <FaListAlt className="text-3xl" />
+                            <HiOutlineMenuAlt3 className="text-3xl ms-3" />
                         </label>
                         <ul
                             tabIndex={0}
