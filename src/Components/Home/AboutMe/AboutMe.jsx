@@ -4,9 +4,8 @@ const AboutMe = () => {
     return (
         <div>
             <SectionTitle
-            heading={"Skils & About Me"}
+                heading={"Skills & About Me"}
             ></SectionTitle>
-            
         </div>
     );
 };

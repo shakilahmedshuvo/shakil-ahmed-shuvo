@@ -56,7 +56,7 @@ const NavBar = () => {
                         to='/'
                         className="btn btn-ghost normal-case text-3xl font-bold text-center">
                         Shakil Ahmed<span
-                            className="text-3xl font-normal relative top-2">
+                            className="text-2xl font-normal relative top-3 right-1">
                             &#174;
                         </span>
                     </Link>
