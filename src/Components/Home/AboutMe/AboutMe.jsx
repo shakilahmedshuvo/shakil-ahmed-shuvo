@@ -1,9 +1,12 @@
+import SectionTitle from "../../Shared/SectionTitle";
+
 const AboutMe = () => {
     return (
         <div>
-            <h2>
-                Skills & About Me
-            </h2>
+            <SectionTitle
+            heading={"Skils & About Me"}
+            ></SectionTitle>
+            
         </div>
     );
 };
