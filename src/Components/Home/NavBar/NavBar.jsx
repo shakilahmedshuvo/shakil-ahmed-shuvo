@@ -19,14 +19,13 @@ const navBarItems =
             </Link>
         </li>
         <li className="text-lg">
-            <Link to="instructor">
+            <Link
+                onClick={() => window.my_modal_1.showModal()}>
                 <FaRegAddressBook />Contact
             </Link>
         </li>
         {/* conditional rendering */}
     </>
-
-
 
 const NavBar = () => {
     // dark mode toggler
@@ -46,6 +45,7 @@ const NavBar = () => {
         const localTheme = localStorage.getItem("theme");
         document.querySelector("html").setAttribute("data-theme", localTheme);
     }, [theme]);
+
     return (
         <div
             className="font-bold fixed z-10 w-full bg-black">
@@ -55,7 +55,10 @@ const NavBar = () => {
                     <Link
                         to='/'
                         className="btn btn-ghost normal-case text-3xl font-bold text-center">
-                        Shakil Ahmed
+                        Shakil Ahmed<span
+                            className="text-3xl font-normal relative top-2">
+                            &#174;
+                        </span>
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -72,10 +75,9 @@ const NavBar = () => {
                         <input
                             type="checkbox"
                             onChange={handleToggle}
-                            checked={
-                                theme === "light"
-                                    ?
-                                    false : true} />
+                            checked={theme === "light"
+                                ?
+                                false : true} />
                         <div
                             className="swap-on">
                             <svg
@@ -106,7 +108,7 @@ const NavBar = () => {
                         </label>
                         <ul
                             tabIndex={0}
-                            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 relative right-0 bg-gradient-to-r from-indigo-100 from-10% via-sky-100 via-30% to-pink-100 to-90% text-black">
+                            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 relative right-0 bg-black">
                             {navBarItems}
                         </ul>
                     </div>

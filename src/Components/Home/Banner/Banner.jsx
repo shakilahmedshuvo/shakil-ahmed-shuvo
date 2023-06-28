@@ -2,7 +2,6 @@ import { TbDownload } from "react-icons/tb";
 import { FiPhone } from "react-icons/fi";
 
 const Banner = () => {
-
     return (
         <div className="mt-20 max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 sm:grid-cols-1">
@@ -12,12 +11,15 @@ const Banner = () => {
                             className="lg:text-5xl text-3xl font-bold">
                             Hi, I am <span
                                 className="text-blue-500">
-                                Shakil Ahmed
+                                Shakil Ahmed<span
+                                    className="text-3xl font-normal relative top-3">
+                                    &#174;
+                                </span>
                             </span>
                         </h2>
                         <p
                             className="py-8 text-base font-medium">
-                            I am a junior web developer.Who can provide full service of web development, specializing in HTML, CSS ,JAVASCRIPT, BOOTSTRAP, TAILWIND CSS, REACT, NODE JS ,EXPRESS JS, FIREBASE & MONGO DB. Also build custom responsive websites for clients.
+                            I am a junior web developer. Who can provide full service of web development, specializing in HTML, CSS ,JAVASCRIPT, BOOTSTRAP, TAILWIND CSS, REACT, NODE JS ,EXPRESS JS, FIREBASE & MONGO DB. Also build custom responsive websites for clients.
                         </p>
                         <div
                             className="lg:block hidden">
@@ -78,7 +80,7 @@ const Banner = () => {
                         alt="" />
                 </div>
                 <div
-                   className="block sm:hidden">
+                    className="block sm:hidden">
                     <div
                         className="grid lg:grid-cols-2 sm:grid-cols-2 gap-4 px-4">
                         <a
