@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { FiLogOut, FiLogIn } from "react-icons/fi";
-import { FaHome, FaUserGraduate, FaChalkboardTeacher, FaListAlt } from "react-icons/fa";
-import { SiGooglesheets } from "react-icons/si";
+import { FaHome, FaChalkboardTeacher, FaListAlt } from "react-icons/fa";
+import { RiContactsFill } from "react-icons/ri";
+import { useEffect, useState } from "react";
+
 // nav item 
 const navBarItems =
     <>
@@ -14,70 +15,46 @@ const navBarItems =
         <li className="text-lg">
             <Link
                 to="/popularClasses">
-                <FaChalkboardTeacher />Classes
+                <FaChalkboardTeacher />Projects
             </Link>
         </li>
         <li className="text-lg">
             <Link to="instructor">
-                <FaUserGraduate />Instructors
+                <RiContactsFill />Contact
             </Link>
         </li>
         {/* conditional rendering */}
-        {
-            // user ?
-            //     <>
-
-            //         <li className="text-lg">
-            //             <Link to="/dashboard">
-            //                 <SiGooglesheets />Dashboard
-            //             </Link>
-            //         </li>
-            //         {/* tooltip show and the profile picture */}
-            //         <div
-            //             className="tooltip tooltip-warning tooltip-bottom flex justify-center items-center font-bold"
-            //             data-tip={user.displayName}>
-            //             <img
-            //                 className="w-12 h-12 rounded-full"
-            //                 src=
-            //                 {
-            //                     user?.photoURL
-            //                 }
-            //                 alt="" />
-            //         </div>
-            //         <li className="text-lg">
-            //             <Link
-            //                 // onClick={handleLogOut}
-            //                 className="btn-ghost">
-            //                 Log Out <FiLogOut
-            //                     className="text-2xl text-slate-200">
-            //                 </FiLogOut>
-            //             </Link>
-            //         </li>
-            //     </>
-            //     :
-            //     <>
-            //         <li className="text-lg">
-            //             <Link
-            //                 className="btn-ghost"
-            //                 to="login">
-            //                 Log In
-            //                 <FiLogIn
-            //                     className="text-2xl text-slate-200">
-            //                 </FiLogIn>
-            //             </Link>
-            //         </li>
-            //     </>
-        }
     </>
 
+
+
 const NavBar = () => {
+    // dark mode toggler
+    const [theme, setTheme] = useState(
+        localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    );
+    const handleToggle = (e) => {
+        if (e.target.checked) {
+            setTheme("business");
+        }
+        else {
+            setTheme("light");
+        }
+    };
+    useEffect(() => {
+        localStorage.setItem("theme", theme);
+        const localTheme = localStorage.getItem("theme");
+        document.querySelector("html").setAttribute("data-theme", localTheme);
+    }, [theme]);
     return (
-        <div className="font-bold  w-full">
-            <div className="navbar z-10 fixed mx-auto text-white">
+        <div
+            className="font-bold fixed z-10 w-full bg-yellow-50">
+            <div
+                className="navbar text-white max-w-7xl mx-auto">
                 <div className="navbar-start ">
                     <Link
                         to='/'
-                        className="btn btn-ghost normal-case text-3xl font-bold">
+                        className="btn btn-ghost normal-case text-3xl font-bold text-center">
                         Shakil Ahmed
                     </Link>
                 </div>
@@ -87,23 +64,22 @@ const NavBar = () => {
                         {navBarItems}
                     </ul>
                 </div>
-                {/* dark mode toggler start */}
-                <div className="navbar-end font-bold">
-                    {/* <label
+                <div
+                    className="navbar-end font-bold">
+                    {/* dark mode toggler start */}
+                    <label
                         className="swap swap-rotate">
                         <input
                             type="checkbox"
                             onChange={handleToggle}
                             checked={
-                                theme === "light" ? false : true}
-                        />
+                                theme === "light"
+                                    ?
+                                    false : true} />
                         <div
                             className="swap-on">
-                            <p>
-                                Dark Mode
-                            </p>
                             <svg
-                                className="fill-current w-8 h-8 mr-5 mx-auto"
+                                className="fill-current w-8 h-8 mx-auto"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24">
                                 <path
@@ -112,9 +88,6 @@ const NavBar = () => {
                         </div>
                         <div
                             className="swap-off">
-                            <p>
-                                Light Mode
-                            </p>
                             <svg
                                 className="fill-current w-8 h-8 mx-auto"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +96,8 @@ const NavBar = () => {
                                     d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
                             </svg>
                         </div>
-                    </label> */}
+                    </label>
+                    {/* dark mode toggler start */}
                     <div className="dropdown">
                         <label
                             tabIndex={0}

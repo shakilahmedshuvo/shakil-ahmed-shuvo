@@ -7,7 +7,7 @@ const ErrorPage = () => {
     return (
         <>
             <NavBar />
-            <div className='text-center'>
+            <div className='text-center pt-20'>
                 <div className='lg:w-[50%] sm:w-full mx-auto'>
                     <img
                         className='mx-auto lg:w-[100%] sm:w-[100%] rounded-lg pt-6'

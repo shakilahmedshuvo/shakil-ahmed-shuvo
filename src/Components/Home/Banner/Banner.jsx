@@ -2,7 +2,7 @@ import { TbDownload } from "react-icons/tb";
 
 const Banner = () => {
     return (
-        <div>
+        <div className="mt-24">
             <h2>
                 this is Banner
             </h2>
