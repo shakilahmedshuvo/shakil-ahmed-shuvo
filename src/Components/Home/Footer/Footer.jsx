@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className="">
+        <div className="bg-blue-400">
             <div
                 className="text-center max-w-7xl mx-auto pt-8">
                 <h2
@@ -12,7 +12,7 @@ const Footer = () => {
                 </h2>
                 <div
                     className="pt-5 pb-6">
-                    <hr className="w-[40%] mx-auto" />
+                    <hr className="lg:w-[40%] w-[80%] mx-auto text-black" />
                 </div>
                 {/* Social Media Links section start */}
                 <div
@@ -36,7 +36,7 @@ const Footer = () => {
                 {/* Social Media Links section end */}
             </div>
             <div
-                className="text-center bg-yellow-400 py-4 font-bold">
+                className="text-center bg-blue-500 py-4 font-bold">
                 <small>
                     Copyright © 2023 - Shakil Ahmed Shuvo All rights reserved.
                 </small>
