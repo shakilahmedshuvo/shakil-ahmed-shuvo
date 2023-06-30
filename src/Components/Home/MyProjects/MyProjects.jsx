@@ -2,11 +2,13 @@ import SectionTitle from "../../Shared/SectionTitle";
 
 const MyProjects = () => {
     return (
-        <div>
+        <div
+            className="max-w-7xl mx-auto">
             <SectionTitle
                 heading={"- My Project's -"}
             ></SectionTitle>
-            <div>
+            <div
+                className="grid lg:grid-cols-3 gap-5 my-10">
                 
             </div>
         </div>
