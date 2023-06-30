@@ -1,7 +1,22 @@
 import { TbDownload } from "react-icons/tb";
 import { FiPhone } from "react-icons/fi";
+import shakilPdf from '../../../../public/Resume-of-Shakil-Hossain-jr-developer.pdf'
+import Swal from "sweetalert2";
 
 const Banner = () => {
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = shakilPdf;
+        link.download = 'Resume-of-Shakil-Hossain-jr-developer.pdf';
+        link.click();
+        Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'Shakil Ahmed Resume has been downloaded',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    }
     return (
         <div className="mt-20 max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 sm:grid-cols-1">
@@ -25,8 +40,9 @@ const Banner = () => {
                             className="lg:block hidden">
                             <div
                                 className="grid lg:grid-cols-2 sm:grid-cols-2 gap-4">
+                                {/* pdf download */}
                                 <a
-                                    href="../../../../public/Resume of  Shakil Hossain jr developer.pdf"
+                                    onClick={handleDownload}
                                     className="flex btn bg-blue-500 text-white hover:bg-blue-400 h-full">
                                     <TbDownload className="text-3xl font-bold" /> Download Resume
                                 </a>
@@ -73,7 +89,8 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div>
+                <div
+                    className="mx-auto">
                     <img
                         className="rounded-lg"
                         src="https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2417.jpg?w=740&t=st=1687953702~exp=1687954302~hmac=2d0612b0b1da7ef90ae421365c4f5af604241978e7ba567ea5013eb9cc2fe9d7"
@@ -83,8 +100,9 @@ const Banner = () => {
                     className="lg:hidden block">
                     <div
                         className="grid lg:grid-cols-2 sm:grid-cols-2 gap-4 px-4">
+                        {/* pdf download */}
                         <a
-                            href="../../../../public/Resume of  Shakil Hossain jr developer.pdf"
+                            onClick={handleDownload}
                             className="flex btn bg-blue-500 text-white hover:bg-blue-400 h-full">
                             <TbDownload className="text-3xl font-bold" /> Download Resume
                         </a>
