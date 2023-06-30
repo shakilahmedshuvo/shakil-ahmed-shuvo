@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "name": "Art Summer Camp",
+        "shortInfo": "This is a Art Summer Camp Project using MERN stack.",
+        "img": "./art-summer-camp-img.jpg",
+        "liveLink": "https://art-summer-camp.web.app/",
+        "clientLink": "https://github.com/shakilahmedshuvo/art-summer-camp-client",
+        "serverLink": "https://github.com/shakilahmedshuvo/art-summer-camp-server",
+        "feature": {
+            "first": "Responsive Interface: The project is created while keeping the UI compatible for both Desktop and Mobile.",
+            "second": "Authentication: Normal registration as well as third-party authentications (Google) are used. There are certain routes that are accessible only after you login or register through any of the given options. Also, there are certain features that are only accessible if your role matches the requirement.",
+            "third": "Dynamic Data: Express.js & MongoDB is used for the CRUD operations."
+        },
+        "techIcon": {
+            "iconOne": "React Vite",
+            "iconTwo": "Tailwind Css",
+            "iconThree": "Daisy UI",
+            "iconFour": "Firebase",
+            "iconFive": "Vercel",
+            "iconSix": "Express js",
+            "iconSeven": "node js",
+            "iconEight": "mongo db",
+            "iconNine": "axios",
+            "iconTen": "jwt"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Kids Toy World",
+        "shortInfo": "This is a Kids Toy World Project using React Router & This is a single page application",
+        "img": "./KidsToyWorldImg.jpg",
+        "liveLink": "https://kids-toy-world.web.app/",
+        "clientLink": "https://github.com/shakilahmedshuvo/Kids-toy-world-client",
+        "serverLink": "https://github.com/shakilahmedshuvo/kids-toy-world-server",
+        "feature": {
+            "first": "Responsive Interface: The project is created while keeping the UI compatible for both Desktop and Mobile.",
+            "second": "Authentication: Normal registration as well as third-party authentications (Google) are used. There are certain routes that are accessible only after you login or register through any of the given options.",
+            "third": "Dynamic Data: Express.js & MongoDB is used for the CRUD operations."
+        },
+        "techIcon": {
+            "iconOne": "Vs-code",
+            "iconTwo": "Tailwind Css",
+            "iconThree": "Daisy UI",
+            "iconFour": "Firebase",
+            "iconFive": "Vercel"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Chef Zone",
+        "shortInfo": "This is a Chef Zone Project Besed on chef's.You can explore single page application",
+        "img": "./ChefZoneImg.jpg",
+        "liveLink": "https://chef-zone-client.web.app/",
+        "clientLink": "https://github.com/shakilahmedshuvo/Chef-zone-client",
+        "serverLink": "https://github.com/shakilahmedshuvo/Chef-zone-server",
+        "feature": {
+            "first": "Responsive Interface: The project is created while keeping the UI compatible for both Desktop, Tablet, and Mobile.",
+            "second": "Purpose: Chef Zone is a comprehensive platform that provides detailed information about chefs from various backgrounds and culinary expertise. ",
+            "third": "Responsible: I was responsible for the client-side frontend part."
+        },
+        "techIcon": {
+            "iconOne": "React Vite",
+            "iconTwo": "html",
+            "iconThree": "css",
+            "iconFour": "js",
+            "iconFive": "Vercel"
+        }
+    }
+]
