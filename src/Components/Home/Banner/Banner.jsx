@@ -1,8 +1,9 @@
 import { TbDownload } from "react-icons/tb";
 import { FiPhone } from "react-icons/fi";
-import shakilPdf from '../../../../public/Resume-of-Shakil-Hossain-jr-developer.pdf'
+import shakilPdf from '../../../../public/Resume-of-Shakil-Hossain-jr-developer.pdf';
+import Lottie from 'react-lottie';
 import Swal from "sweetalert2";
-import Typewriter from "react-ts-typewriter";
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
     // handleDownload function
@@ -19,6 +20,7 @@ const Banner = () => {
             timer: 1500
         })
     }
+
     return (
         <div className="mt-20 max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 sm:grid-cols-1">
@@ -28,19 +30,37 @@ const Banner = () => {
                             className="lg:text-5xl text-3xl font-bold">
                             Hi, I am <span
                                 className="text-blue-500">
-                                <Typewriter
+                                {/* <Typewriter
                                     text="Shakil Ahmed"
                                     loop={true}
                                     cursor={false}
                                     speed={200}
-                                ></Typewriter><span
+                                ></Typewriter> */}
+                                Shakil Ahmed
+                                <span
                                     className="text-3xl font-normal relative top-3">
                                     &#174;
                                 </span>
                             </span>
                         </h2>
+                        <TypeAnimation
+                            className="text-blue-500 my-4 font-bold"
+                            sequence={[
+                                'I am a Web Developer',
+                                1000,
+                                'I am a Front-end Developer',
+                                1000,
+                                'I am a React JS Developer',
+                                1000,
+                                'I am a MERN Stack Developer',
+                                1000
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            style={{ fontSize: '2em', display: 'inline-block' }}
+                            repeat={Infinity} />
                         <p
-                            className="py-8 text-base font-medium">
+                            className="pt-2 pb-10 text-base font-medium">
                             I am a junior web developer. Who can provide full service of web development, specializing in HTML, CSS ,JAVASCRIPT, BOOTSTRAP, TAILWIND CSS, REACT, NODE JS ,EXPRESS JS, FIREBASE & MONGO DB. Also build custom responsive websites for clients.
                         </p>
                         <div
