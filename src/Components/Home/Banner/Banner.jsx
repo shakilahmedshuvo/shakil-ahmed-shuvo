@@ -1,9 +1,10 @@
 import { TbDownload } from "react-icons/tb";
 import { FiPhone } from "react-icons/fi";
 import shakilPdf from '../../../../public/Resume-of-Shakil-Hossain-jr-developer.pdf';
-import Lottie from 'react-lottie';
 import Swal from "sweetalert2";
 import { TypeAnimation } from "react-type-animation";
+import Lottie from "lottie-react";
+import animationPC from "../../../assets/AnimationPC.json";
 
 const Banner = () => {
     // handleDownload function
@@ -30,19 +31,13 @@ const Banner = () => {
                             className="lg:text-5xl text-3xl font-bold">
                             Hi, I am <span
                                 className="text-blue-500">
-                                {/* <Typewriter
-                                    text="Shakil Ahmed"
-                                    loop={true}
-                                    cursor={false}
-                                    speed={200}
-                                ></Typewriter> */}
-                                Shakil Ahmed
-                                <span
+                                Shakil Ahmed<span
                                     className="text-3xl font-normal relative top-3">
                                     &#174;
                                 </span>
                             </span>
                         </h2>
+                        {/* type animation */}
                         <TypeAnimation
                             className="text-blue-500 my-4 font-bold"
                             sequence={[
@@ -60,7 +55,7 @@ const Banner = () => {
                             style={{ fontSize: '2em', display: 'inline-block' }}
                             repeat={Infinity} />
                         <p
-                            className="pt-2 pb-10 text-base font-medium">
+                            className="pt-2 lg:pb-10 sm:pb-0 text-base font-medium">
                             I am a junior web developer. Who can provide full service of web development, specializing in HTML, CSS ,JAVASCRIPT, BOOTSTRAP, TAILWIND CSS, REACT, NODE JS ,EXPRESS JS, FIREBASE & MONGO DB. Also build custom responsive websites for clients.
                         </p>
                         <div
@@ -117,16 +112,16 @@ const Banner = () => {
                 </div>
 
                 <div
-                    className="mx-auto">
-                    <img
-                        className="rounded-lg"
-                        src="https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2417.jpg?w=740&t=st=1687953702~exp=1687954302~hmac=2d0612b0b1da7ef90ae421365c4f5af604241978e7ba567ea5013eb9cc2fe9d7"
-                        alt="" />
+                    className="mx-auto w-full h-full lg:mt-12">
+                    <Lottie
+                        animationData={animationPC}
+                        loop={true}
+                    ></Lottie>
                 </div>
                 <div
                     className="lg:hidden block">
                     <div
-                        className="grid lg:grid-cols-2 sm:grid-cols-2 gap-4 px-4">
+                        className="grid lg:grid-cols-2 sm:grid-cols-2 gap-4 px-4 mt-4">
                         {/* pdf download */}
                         <a
                             onClick={handleDownload}
