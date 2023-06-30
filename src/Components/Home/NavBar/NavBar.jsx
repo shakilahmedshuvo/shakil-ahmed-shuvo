@@ -19,8 +19,7 @@ const navBarItems =
             </Link>
         </li>
         <li className="text-lg">
-            <Link
-                onClick={() => window.my_modal_1.showModal()}>
+            <Link>
                 <FaRegAddressBook />Contact
             </Link>
         </li>

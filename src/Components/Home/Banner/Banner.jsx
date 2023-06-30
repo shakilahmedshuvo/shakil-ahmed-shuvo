@@ -80,7 +80,7 @@ const Banner = () => {
                         alt="" />
                 </div>
                 <div
-                    className="block sm:hidden">
+                    className="lg:hidden block">
                     <div
                         className="grid lg:grid-cols-2 sm:grid-cols-2 gap-4 px-4">
                         <a
