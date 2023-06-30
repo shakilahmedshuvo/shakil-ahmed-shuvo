@@ -2,8 +2,10 @@ import { TbDownload } from "react-icons/tb";
 import { FiPhone } from "react-icons/fi";
 import shakilPdf from '../../../../public/Resume-of-Shakil-Hossain-jr-developer.pdf'
 import Swal from "sweetalert2";
+import Typewriter from "react-ts-typewriter";
 
 const Banner = () => {
+    // handleDownload function
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = shakilPdf;
@@ -26,7 +28,12 @@ const Banner = () => {
                             className="lg:text-5xl text-3xl font-bold">
                             Hi, I am <span
                                 className="text-blue-500">
-                                Shakil Ahmed<span
+                                <Typewriter
+                                    text="Shakil Ahmed"
+                                    loop={true}
+                                    cursor={false}
+                                    speed={200}
+                                ></Typewriter><span
                                     className="text-3xl font-normal relative top-3">
                                     &#174;
                                 </span>
