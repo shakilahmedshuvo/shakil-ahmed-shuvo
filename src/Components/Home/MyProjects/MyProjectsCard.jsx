@@ -7,7 +7,7 @@ const MyProjectsCard = ({ data }) => {
     const { name, shortInfo, img, liveLink, clientLink, serverLink, feature, techIcon, title } = data;
 
     return (
-        <div className="drop-shadow-md bg-blue-50"> 
+        <div className="drop-shadow-md bg-blue-50">
             <div
                 className="card-container mx-auto">
                 <img
@@ -44,39 +44,12 @@ const MyProjectsCard = ({ data }) => {
                         Server Site <BsGithub className="text-xl ms-2" />
                     </Link>
                 </div>
-            </div>
-            {/* modal section for cards */}
-            <div className="px-2 mt-7 mb-3">
-                <label
-                    htmlFor="my_modal_6"
-                    className="btn w-[100%] mx-auto items-center bg-blue-500 text-white hover:bg-blue-400 mb-4">
-                    View More Details <MdOutlineKeyboardDoubleArrowRight className="text-3xl" />
-                </label>
-                <input
-                    type="checkbox"
-                    id="my_modal_6"
-                    className="modal-toggle" />
                 <div
-                    className="modal">
-                    <div
-                        className="modal-box">
-                        <h3
-                            className="font-bold text-lg">
-                            Hello!
-                        </h3>
-                        <p
-                            className="py-4">
-                            This modal works with a hidden checkbox!
-                        </p>
-                        <div
-                            className="modal-action">
-                            <label
-                                htmlFor="my_modal_6"
-                                className="btn">
-                                Close!
-                            </label>
-                        </div>
-                    </div>
+                    className="px-2 mt-7 mb-3">
+                    <label
+                        className="btn w-[100%] mx-auto items-center bg-blue-500 text-white hover:bg-blue-400 mb-4">
+                        View More Details <MdOutlineKeyboardDoubleArrowRight className="text-3xl" />
+                    </label>
                 </div>
             </div>
         </div>
