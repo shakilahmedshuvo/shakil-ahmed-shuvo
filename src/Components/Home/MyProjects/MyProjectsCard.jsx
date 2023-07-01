@@ -7,12 +7,11 @@ const MyProjectsCard = ({ data }) => {
     const { name, shortInfo, img, liveLink, clientLink, serverLink, feature, techIcon, title } = data;
 
     return (
-        <div
-            className="border-2 rounded-lg">
+        <div className="drop-shadow-md bg-blue-50"> 
             <div
                 className="card-container mx-auto">
                 <img
-                    className="img-container lg:px-0 px-2"
+                    className="img-container lg:px-0 px-2 rounded-lg"
                     src={img}
                     alt="" />
             </div>
@@ -47,7 +46,7 @@ const MyProjectsCard = ({ data }) => {
                 </div>
             </div>
             {/* modal section for cards */}
-            <div className="px-2">
+            <div className="px-2 mt-5">
                 <label
                     htmlFor="my_modal_6"
                     className="btn w-[100%] mx-auto items-center bg-blue-500 text-white hover:bg-blue-400 mb-4">
