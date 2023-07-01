@@ -21,7 +21,7 @@ const MyProjectsCard = ({ data }) => {
             </h2>
             {/* link section */}
             <div
-                className="my-4">
+                className="my-6">
                 <h2
                     className="text-center text-base text-blue-500 font-bold relative bottom-3">
                     Important Link's :
@@ -46,7 +46,7 @@ const MyProjectsCard = ({ data }) => {
                 </div>
             </div>
             {/* modal section for cards */}
-            <div className="px-2 mt-5">
+            <div className="px-2 mt-7 mb-3">
                 <label
                     htmlFor="my_modal_6"
                     className="btn w-[100%] mx-auto items-center bg-blue-500 text-white hover:bg-blue-400 mb-4">
