@@ -28,15 +28,18 @@ const MyProjectsCard = ({ data }) => {
                 <div
                     className="px-2 grid grid-cols-3 font-bold text-center text-gray-700">
                     <Link
-                        className="flex mx-auto">
+                        to={liveLink}
+                        className="flex mx-auto hover:text-blue-600 hover:bg-blue-100 py-2 rounded-lg">
                         Live Website<TbExternalLink className="text-2xl ms-1" />
                     </Link>
                     <Link
-                        className="flex mx-auto">
+                        to={clientLink}
+                        className="flex mx-auto hover:text-blue-600 hover:bg-blue-100 py-2 rounded-lg">
                         Client Site <BsGithub className="text-xl ms-2" />
                     </Link>
                     <Link
-                        className="flex mx-auto">
+                        to={serverLink}
+                        className="flex mx-auto hover:text-blue-600 hover:bg-blue-100 py-2 rounded-lg">
                         Server Site <BsGithub className="text-xl ms-2" />
                     </Link>
                 </div>
