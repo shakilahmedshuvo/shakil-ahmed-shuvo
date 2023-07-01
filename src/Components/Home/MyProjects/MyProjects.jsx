@@ -17,8 +17,9 @@ const MyProjects = () => {
             <SectionTitle
                 heading={"- My Project's -"}
             ></SectionTitle>
-            {/* map the data */}
-            <div>
+            {/* map the data and grid section */}
+            <div
+                className="grid lg:grid-cols-3 my-10 gap-4">
                 {
                     data.map(data => <MyProjectsCard
                         key={data.id}

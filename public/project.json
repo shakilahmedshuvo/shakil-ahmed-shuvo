@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Art Summer Camp",
+        "title": "Art Website",
         "shortInfo": "This is a Art Summer Camp Project using MERN stack.",
         "img": "./art-summer-camp-img.jpg",
         "liveLink": "https://art-summer-camp.web.app/",
@@ -28,6 +29,7 @@
     {
         "id": 2,
         "name": "Kids Toy World",
+        "title": "Toy Market",
         "shortInfo": "This is a Kids Toy World Project using React Router & This is a single page application",
         "img": "./KidsToyWorldImg.jpg",
         "liveLink": "https://kids-toy-world.web.app/",
@@ -49,6 +51,7 @@
     {
         "id": 3,
         "name": "Chef Zone",
+        "title": "Chef Website",
         "shortInfo": "This is a Chef Zone Project Besed on chef's.You can explore single page application",
         "img": "./ChefZoneImg.jpg",
         "liveLink": "https://chef-zone-client.web.app/",

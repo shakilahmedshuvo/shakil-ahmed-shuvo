@@ -29,6 +29,17 @@ const AboutMe = () => {
                         className="rounded-2xl py-4 px-2">
                         <p
                             className="text-gray-600 my-2" >
+                            From :
+                        </p>
+                        <h2
+                            className="font-bold">
+                            Dhaka, Bangladesh
+                        </h2>
+                    </div>
+                    <div
+                        className="rounded-2xl py-4 px-2">
+                        <p
+                            className="text-gray-600 my-2" >
                             Email :
                         </p>
                         <h2
@@ -45,17 +56,6 @@ const AboutMe = () => {
                         <h2
                             className="font-bold">
                             +880 1902 991164
-                        </h2>
-                    </div>
-                    <div
-                        className="rounded-2xl py-4 px-2">
-                        <p
-                            className="text-gray-600 my-2" >
-                            From :
-                        </p>
-                        <h2
-                            className="font-bold">
-                            Dhaka, Bangladesh
                         </h2>
                     </div>
                 </div>
