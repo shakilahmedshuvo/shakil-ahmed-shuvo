@@ -71,7 +71,7 @@ const Banner = () => {
                                 {/* modal section start */}
                                 <div>
                                     <button
-                                        className="btn btn-outline border-2 border-blue-500 w-full text-blue-500 font-bold"
+                                        className="btn btn-outline border-2 border-blue-500 w-full text-blue-500 font-bold hover:bg-black"
                                         onClick={() => window.my_modal_1.showModal()}>
                                         <FiPhone className="text-xl font-bold" /> Contact
                                     </button>
@@ -128,7 +128,7 @@ const Banner = () => {
                             className="flex btn bg-blue-500 text-white hover:bg-blue-400 h-full">
                             <TbDownload className="text-3xl font-bold" /> Download Resume
                         </a>
-                        <div className="">
+                        <div>
                             <button
                                 className="btn btn-outline border-2 border-blue-500 w-full text-blue-500 font-bold"
                                 onClick={() => window.my_modal_2.showModal()}>
