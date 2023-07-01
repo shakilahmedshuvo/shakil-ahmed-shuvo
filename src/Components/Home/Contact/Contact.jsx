@@ -2,6 +2,7 @@ import { useRef } from "react";
 import SectionTitle from "../../Shared/SectionTitle";
 import emailjs from '@emailjs/browser';
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const Contact = () => {
     const form = useRef();
@@ -10,12 +11,26 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_qqwd2hf', 'template_39elj6s', form.current, 'SRnTAkpey90_X63NF')
+        emailjs.sendForm(
+            'service_qqwd2hf',
+            'template_39elj6s',
+            form.current,
+            'SRnTAkpey90_X63NF')
             .then((result) => {
                 console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+                
+                // success swal
+                Swal.fire({
+                    position: 'top-center',
+                    icon: 'success',
+                    title: 'Your Email Has Been Send',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            },
+                (error) => {
+                    console.log(error.text);
+                });
     };
 
     return (
@@ -93,39 +108,72 @@ const Contact = () => {
                 </div>
                 <div>
                     <h2
-                        className="text-2xl font-bold">
+                        className="text-2xl font-bold my-1">
                         - Send Email -
                     </h2>
                     {/* form section start */}
                     <div>
                         <form
                             ref={form}
-                            onSubmit={sendEmail}>
-                            <label>
-                                Name
-                            </label>
+                            onSubmit={sendEmail}
+                            className="w-full shadow-2xl font-bold">
+                            <div className="card-body">
+                                <div
+                                    className="form-control">
+                                    {/* name */}
+                                    <label
+                                        className="label">
+                                        <span
+                                            className="label-text">
+                                            * Enter Your Name
+                                        </span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="user_name"
+                                        placeholder="Your Name"
+                                        className="input input-bordered"
+                                        required />
+                                    {/* email */}
+                                    <label
+                                        className="label">
+                                        <span
+                                            className="label-text">
+                                            * Enter Your Email
+                                        </span>
+                                    </label>
+                                    <input
+                                        type="email"
+                                        name="user_email"
+                                        placeholder="Your Email"
+                                        className="input input-bordered"
+                                        required />
+                                    {/* Message */}
+                                    <label
+                                        className="label">
+                                        <span
+                                            className="label-text">
+                                            * Enter Your Message
+                                        </span>
+                                    </label>
+                                    <textarea
+                                        name="message"
+                                        className="textarea textarea-info" placeholder="Your Message"
+                                        required />
+                                </div>
+
+                            </div>
+                            {/* input btn */}
                             <input
-                                type="text"
-                                name="user_name" />
-                            <label>
-                                Email
-                            </label>
-                            <input
-                                type="email"
-                                name="user_email" />
-                            <label>
-                                Message
-                            </label>
-                            <textarea
-                                name="message" />
-                            <input
+                                className="btn px-20 ms-8 mb-6 bg-blue-500 text-white hover:bg-blue-400 w-[90%]"
                                 type="submit"
-                                value="Send" />
+                                value="->>    Send Email    <<-" />
                         </form>
+                        {/* form section end */}
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
