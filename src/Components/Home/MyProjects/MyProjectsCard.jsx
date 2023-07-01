@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 const MyProjectsCard = ({ data }) => {
-    const { name, shortInfo, img, liveLink, clientLink, serverLink, feature, techIcon, title } = data;
+    // const { name, shortInfo, img, liveLink, clientLink, serverLink, feature, techIcon, title } = data;
+    const { name, img, liveLink, clientLink, serverLink } = data;
 
     return (
         <div className="drop-shadow-md bg-blue-50">
@@ -24,7 +25,7 @@ const MyProjectsCard = ({ data }) => {
                 className="my-6">
                 <h2
                     className="text-center text-base text-blue-500 font-bold relative bottom-3">
-                    Important Link's :
+                    Important Links :
                 </h2>
                 <div
                     className="px-2 grid lg:grid-cols-3 grid-cols-2 font-bold text-center text-gray-700">

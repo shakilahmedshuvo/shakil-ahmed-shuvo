@@ -14,16 +14,16 @@ const navBarItems =
         </li>
         <li className="text-lg">
             <Link
-                to="/popularClasses">
+                to="/">
                 <FaChalkboardTeacher />Projects
             </Link>
         </li>
         <li className="text-lg">
-            <Link>
+            <Link
+                to="/">
                 <FaRegAddressBook />Contact
             </Link>
         </li>
-        {/* conditional rendering */}
     </>
 
 const NavBar = () => {
