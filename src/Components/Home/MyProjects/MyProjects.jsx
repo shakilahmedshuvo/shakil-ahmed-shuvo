@@ -19,7 +19,7 @@ const MyProjects = () => {
             ></SectionTitle>
             {/* map the data and grid section */}
             <div
-                className="grid lg:grid-cols-3 my-10 gap-4">
+                className="grid lg:grid-cols-3 my-10 gap-6 lg:px-0 px-5">
                 {
                     data.map(data => <MyProjectsCard
                         key={data.id}

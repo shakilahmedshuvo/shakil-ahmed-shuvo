@@ -12,7 +12,7 @@ const MyProjectsCard = ({ data }) => {
             <div
                 className="card-container mx-auto">
                 <img
-                    className="img-container lg:px-0 px-2 rounded-lg"
+                    className="img-container px-0  rounded-lg"
                     src={img}
                     alt="" />
             </div>

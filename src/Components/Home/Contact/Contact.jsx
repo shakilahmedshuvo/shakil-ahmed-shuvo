@@ -4,6 +4,8 @@ import emailjs from '@emailjs/browser';
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import { TbExternalLink } from "react-icons/tb";
+import Lottie from "lottie-react";
+import contactAnimation from "../../../assets/contact.json";
 
 const Contact = () => {
     const form = useRef();
@@ -116,6 +118,15 @@ const Contact = () => {
                                 </Link>
                             </p>
                         </div>
+                        {/* contact animation section start */}
+                        <div
+                        className="lg:mt-20 lg:mr-14 mx-auto">
+                            <Lottie
+                                animationData={contactAnimation}
+                                loop={true}
+                            ></Lottie>
+                        </div>
+                        {/* contact animation section end */}
                     </div>
                 </div>
                 <div>
