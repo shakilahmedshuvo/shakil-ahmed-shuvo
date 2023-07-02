@@ -1,4 +1,5 @@
 import SectionTitle from "../../Shared/SectionTitle";
+import shakilImg from "../../../assets/shakil.png";
 
 const AboutMe = () => {
     return (
@@ -10,10 +11,11 @@ const AboutMe = () => {
             <div className="grid lg:grid-cols-2">
                 <div>
                     <img
-                        src="https://images01.nicepagecdn.com/page/87/49/website-design-preview-874931.jpg"
+                        className="mx-auto w-[60%] rounded-full border-4 border-yellow-500 mt-16"
+                        src={shakilImg}
                         alt="" />
                 </div>
-                <div className="my-10 grid text-center gap-4">
+                <div className="my-10 grid lg:text-start text-center gap-4">
                     <div
                         className="rounded-2xl py-4 px-2">
                         <p
