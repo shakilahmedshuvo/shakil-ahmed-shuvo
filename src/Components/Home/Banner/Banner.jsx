@@ -23,7 +23,9 @@ const Banner = () => {
     }
 
     return (
-        <div className="mt-20 max-w-7xl mx-auto">
+        <div
+            id="home"
+            className="mt-20 max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 sm:grid-cols-1">
                 <div className="lg:mt-36">
                     <div className="p-2">

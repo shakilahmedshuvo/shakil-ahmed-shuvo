@@ -38,6 +38,7 @@ const Contact = () => {
 
     return (
         <div
+            id="contact"
             className="max-w-7xl mx-auto my-12 lg:p-4">
             <SectionTitle
                 heading={"- Contact Me -"}
@@ -120,7 +121,7 @@ const Contact = () => {
                         </div>
                         {/* contact animation section start */}
                         <div
-                        className="lg:mt-20 lg:mr-14 mx-auto">
+                            className="lg:mt-20 lg:mr-14 mx-auto">
                             <Lottie
                                 animationData={contactAnimation}
                                 loop={true}

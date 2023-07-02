@@ -8,28 +8,28 @@ import { useEffect, useState } from "react";
 const navBarItems =
     <>
         <li className="text-lg">
-            <Link
-                to="/">
+            <a
+                href="#home">
                 <FaHome /> Home
-            </Link>
+            </a>
         </li>
         <li className="text-lg">
-            <Link
-                to="/">
+            <a
+                href="#about">
                 <BsInfoCircleFill /> About
-            </Link>
+            </a>
         </li>
         <li className="text-lg">
-            <Link
-                to="/">
+            <a
+                href="#projects">
                 <FaChalkboardTeacher />Projects
-            </Link>
+            </a>
         </li>
         <li className="text-lg">
-            <Link
-                to="/">
+            <a
+                href="#contact">
                 <FaRegAddressBook />Contact
-            </Link>
+            </a>
         </li>
     </>
 
@@ -57,7 +57,8 @@ const NavBar = () => {
             className="font-bold fixed z-10 w-full bg-black">
             <div
                 className="navbar text-white max-w-7xl mx-auto p-0">
-                <div className="navbar-start ">
+                <div
+                    className="navbar-start ">
                     <Link
                         to='/'
                         className="btn btn-ghost normal-case text-3xl font-bold text-center">
@@ -67,7 +68,8 @@ const NavBar = () => {
                         </span>
                     </Link>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div
+                    className="navbar-center hidden lg:flex">
                     <ul
                         className="menu menu-horizontal px-1">
                         {navBarItems}

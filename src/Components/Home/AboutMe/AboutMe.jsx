@@ -4,6 +4,7 @@ import shakilImg from "../../../assets/shakil.jpg";
 const AboutMe = () => {
     return (
         <div
+            id="about"
             className="max-w-7xl mx-auto mt-8">
             <SectionTitle
                 heading={"- About Me -"}
