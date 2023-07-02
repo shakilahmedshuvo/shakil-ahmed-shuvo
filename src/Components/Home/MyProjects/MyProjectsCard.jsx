@@ -8,7 +8,9 @@ const MyProjectsCard = ({ data }) => {
     const { id, name, img, liveLink, clientLink, serverLink } = data;
 
     return (
-        <div className="drop-shadow-md bg-blue-50">
+        <div
+            data-aos="zoom-out-up"
+            className="drop-shadow-md bg-blue-50">
             <div
                 className="card-container mx-auto">
                 <img

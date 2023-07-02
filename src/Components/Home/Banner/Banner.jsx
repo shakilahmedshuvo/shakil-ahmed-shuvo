@@ -28,7 +28,9 @@ const Banner = () => {
             className="mt-20 max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 sm:grid-cols-1">
                 <div className="lg:mt-36">
-                    <div className="p-2">
+                    <div
+                        data-aos="fade-right"
+                        className="p-2">
                         <h2
                             className="lg:text-5xl text-3xl font-bold">
                             Hi, I am <span
@@ -114,6 +116,7 @@ const Banner = () => {
                 </div>
 
                 <div
+                    data-aos="zoom-in"
                     className="mx-auto w-full h-full lg:mt-12">
                     <Lottie
                         animationData={animationPC}
@@ -121,6 +124,7 @@ const Banner = () => {
                     ></Lottie>
                 </div>
                 <div
+                    data-aos="fade-up"
                     className="lg:hidden block">
                     <div
                         className="grid lg:grid-cols-2 sm:grid-cols-2 gap-4 px-4 mt-4">

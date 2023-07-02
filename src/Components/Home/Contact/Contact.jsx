@@ -52,6 +52,7 @@ const Contact = () => {
                     </h2>
                     {/* contact section */}
                     <div
+                        data-aos="zoom-out"
                         className="mt-6 pb-6 lg:px-2 px-5">
                         {/* email */}
                         <p
@@ -78,6 +79,7 @@ const Contact = () => {
                         <div
                             className="grid lg:grid-cols-2">
                             <p
+                                data-aos="zoom-out"
                                 className="lg:flex items-center mb-4 text-center">
                                 <svg
                                     className="lg:mx-3 mx-auto lg:mb-0 mb-3"
@@ -97,6 +99,7 @@ const Contact = () => {
                                 </Link>
                             </p>
                             <p
+                                data-aos="zoom-out"
                                 className="lg:flex items-center text-center">
                                 <svg
                                     className="lg:mx-3 mx-auto lg:mb-0 mb-3"
@@ -121,6 +124,7 @@ const Contact = () => {
                         </div>
                         {/* contact animation section start */}
                         <div
+                            data-aos="flip-right"
                             className="lg:mt-20 lg:mr-14 mx-auto">
                             <Lottie
                                 animationData={contactAnimation}
@@ -136,7 +140,9 @@ const Contact = () => {
                         - Send Email -
                     </h2>
                     {/* form section start */}
-                    <div className="mx-auto">
+                    <div
+                        data-aos="zoom-in"
+                        className="mx-auto">
                         <form
                             ref={form}
                             onSubmit={sendEmail}

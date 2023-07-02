@@ -10,7 +10,9 @@ const Skills = () => {
             <div
                 className="max-w-7xl mx-auto py-8 rounded-lg my-10 grid grid-cols-2 lg:grid-cols-6 px-2 gap-2 bg-slate-100">
                 {/* html */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 32 32">
@@ -29,7 +31,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* css */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 32 32">
@@ -52,7 +56,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/*  JAVASCRIPT */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256">
@@ -67,7 +73,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* BOOTSTRAP */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="100" height="100" viewBox="0 0 256 204">
@@ -81,7 +89,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* TAILWIND */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128">
@@ -94,7 +104,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* daisy ui */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 136">
@@ -109,7 +121,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* EXPRESS JS */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256">
@@ -125,7 +139,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* NODE JS */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 314">
@@ -231,7 +247,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* MONGO DB */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128">
@@ -285,7 +303,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* REACT */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256">
@@ -309,7 +329,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* REACT ROUTER */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128">
@@ -324,7 +346,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* FIREBASE */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 351">
@@ -383,7 +407,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* VERCEL */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 116">
@@ -396,7 +422,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* JWT */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 172">
@@ -419,7 +447,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* AXIOS */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 75">
@@ -432,7 +462,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* FIGMA */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 384">
@@ -453,7 +485,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* netlify */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 512 209">
@@ -468,7 +502,9 @@ const Skills = () => {
                     </p>
                 </div>
                 {/* vs code */}
-                <div className="border-white border-2 bg-white rounded-2xl py-4">
+                <div
+                    data-aos="zoom-in-up"
+                    className="border-white border-2 bg-white rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256">
