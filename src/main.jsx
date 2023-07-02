@@ -9,6 +9,7 @@ import {
 import Main from './Layout/Main';
 import ErrorPage from './Components/Home/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home/Home';
+import MyProjectInfo from './Components/Home/MyProjects/MyProjectInfo';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +21,14 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home />
       }
+
     ]
   },
+  {
+    path: '/cardInfo/:id',
+    element: <MyProjectInfo />,
+    loader: () => fetch('/project.json')
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

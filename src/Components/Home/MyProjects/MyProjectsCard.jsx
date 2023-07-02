@@ -5,7 +5,7 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 const MyProjectsCard = ({ data }) => {
     // const { name, shortInfo, img, liveLink, clientLink, serverLink, feature, techIcon, title } = data;
-    const { name, img, liveLink, clientLink, serverLink } = data;
+    const { id, name, img, liveLink, clientLink, serverLink } = data;
 
     return (
         <div className="drop-shadow-md bg-blue-50">
@@ -47,13 +47,14 @@ const MyProjectsCard = ({ data }) => {
                 </div>
                 <div
                     className="px-2 mt-7 mb-3">
-                    <label
+                    <Link
+                        to={`cardInfo/${id}`}
                         className="btn w-[100%] mx-auto items-center bg-blue-500 text-white hover:bg-blue-400 mb-4">
                         View More Details <MdOutlineKeyboardDoubleArrowRight className="text-3xl" />
-                    </label>
+                    </Link>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
