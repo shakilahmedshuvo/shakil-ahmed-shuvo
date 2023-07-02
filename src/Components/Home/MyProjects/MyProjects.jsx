@@ -13,7 +13,7 @@ const MyProjects = () => {
     }, []);
     return (
         <div
-            className="max-w-7xl mx-auto">
+            className="max-w-7xl mx-auto my-8">
             <SectionTitle
                 heading={"- My Project's -"}
             ></SectionTitle>

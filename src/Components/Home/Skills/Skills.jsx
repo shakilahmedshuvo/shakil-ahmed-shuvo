@@ -3,7 +3,7 @@ import SectionTitle from "../../Shared/SectionTitle";
 const Skills = () => {
     return (
         <div
-            className="my-5">
+            className="my-12">
             <SectionTitle
                 heading={"- Skills -"}
             ></SectionTitle>

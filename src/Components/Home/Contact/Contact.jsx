@@ -38,12 +38,12 @@ const Contact = () => {
 
     return (
         <div
-            className="max-w-7xl mx-auto my-10 lg:p-4">
+            className="max-w-7xl mx-auto my-12 lg:p-4">
             <SectionTitle
                 heading={"- Contact Me -"}
             ></SectionTitle>
             <div
-                className="grid lg:grid-cols-2 mt-6">
+                className="grid lg:grid-cols-2 mt-10 mb-2">
                 <div>
                     <h2
                         className="text-2xl font-bold lg:text-left text-center">

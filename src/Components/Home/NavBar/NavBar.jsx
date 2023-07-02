@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaHome, FaChalkboardTeacher, FaRegAddressBook } from "react-icons/fa";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { BsInfoCircleFill } from "react-icons/bs";
 import { useEffect, useState } from "react";
 
 // nav item 
@@ -10,6 +11,12 @@ const navBarItems =
             <Link
                 to="/">
                 <FaHome /> Home
+            </Link>
+        </li>
+        <li className="text-lg">
+            <Link
+                to="/">
+                <BsInfoCircleFill /> About
             </Link>
         </li>
         <li className="text-lg">

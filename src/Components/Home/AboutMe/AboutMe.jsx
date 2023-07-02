@@ -1,17 +1,17 @@
 import SectionTitle from "../../Shared/SectionTitle";
-import shakilImg from "../../../assets/shakil.png";
+import shakilImg from "../../../assets/shakil.jpg";
 
 const AboutMe = () => {
     return (
         <div
-            className="max-w-7xl mx-auto mt-5">
+            className="max-w-7xl mx-auto mt-8">
             <SectionTitle
                 heading={"- About Me -"}
             ></SectionTitle>
             <div className="grid lg:grid-cols-2">
                 <div>
                     <img
-                        className="mx-auto w-[60%] rounded-full border-4 border-yellow-500 mt-16"
+                        className="mx-auto w-[60%] rounded-full border-4 border-yellow-300 mt-16"
                         src={shakilImg}
                         alt="" />
                 </div>
