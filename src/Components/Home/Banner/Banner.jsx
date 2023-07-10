@@ -1,7 +1,6 @@
 import { TbDownload } from "react-icons/tb";
 import { FiPhone } from "react-icons/fi";
 import shakilPdf from '../../../../public/Resume-of-Shakil-Hossain-jr-developer.pdf';
-import Swal from "sweetalert2";
 import { TypeAnimation } from "react-type-animation";
 import Lottie from "lottie-react";
 import animationPC from "../../../assets/AnimationPC.json";
@@ -13,13 +12,6 @@ const Banner = () => {
         link.href = shakilPdf;
         link.download = 'Resume-of-Shakil-Hossain-jr-developer.pdf';
         link.click();
-        Swal.fire({
-            position: 'top-center',
-            icon: 'success',
-            title: 'Shakil Ahmed Resume has been downloaded',
-            showConfirmButton: false,
-            timer: 1500
-        })
     }
 
     return (
