@@ -9,24 +9,28 @@ const navBarItems =
     <>
         <li className="text-lg">
             <a
+                className="hover:text-blue-300 hover:text-2xl"
                 href="#home">
                 <FaHome /> Home
             </a>
         </li>
         <li className="text-lg">
             <a
+                className="hover:text-blue-300 hover:text-2xl"
                 href="#about">
                 <BsInfoCircleFill /> About
             </a>
         </li>
         <li className="text-lg">
             <a
+                className="hover:text-blue-300 hover:text-2xl"
                 href="#projects">
                 <FaChalkboardTeacher />Projects
             </a>
         </li>
         <li className="text-lg">
             <a
+                className="hover:text-blue-300 hover:text-2xl"
                 href="#contact">
                 <FaRegAddressBook />Contact
             </a>
