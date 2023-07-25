@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         // <div className="bg-blue-400">
-        <div className="bg-black text-white">
+        <div className="bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90% text-gray-700">
             <div
                 className="text-center max-w-7xl mx-auto pt-8">
                 <h2
@@ -37,7 +37,7 @@ const Footer = () => {
                 {/* Social Media Links section end */}
             </div>
             <div
-                className="text-center bg-blue-500 py-4 font-bold">
+                className="text-center bg-black py-4 font-bold text-white">
                 <small>
                     Copyright © 2023 - Shakil Ahmed Shuvo All rights reserved.
                 </small>

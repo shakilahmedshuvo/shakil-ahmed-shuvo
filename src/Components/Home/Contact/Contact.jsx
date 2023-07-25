@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import { TbExternalLink } from "react-icons/tb";
+import { BiSend } from "react-icons/bi";
 import Lottie from "lottie-react";
 import contactAnimation from "../../../assets/contact.json";
 
@@ -194,10 +195,11 @@ const Contact = () => {
 
                             </div>
                             {/* input btn */}
-                            <input
-                                className="btn px-20 ms-8 mb-6 bg-blue-500 text-white hover:bg-blue-400 lg:w-[90%] w-[80%]"
+                            <div
                                 type="submit"
-                                value="->>    Send Email    <<-" />
+                                className="btn px-20 ms-8 mb-6 bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90%  hover:bg-blue-400 lg:w-[90%] w-[80%] text-slate-800">
+                                Send Email<BiSend className="text-xl flex items-center justify-center mr-1" />
+                            </div>
                         </form>
                         {/* form section end */}
                     </div>

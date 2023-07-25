@@ -58,9 +58,9 @@ const NavBar = () => {
 
     return (
         <div
-            className="font-bold fixed z-10 w-full bg-black">
+            className="font-bold fixed z-10 w-full bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90%">
             <div
-                className="navbar text-white max-w-7xl mx-auto p-0">
+                className="navbar text-gray-800 max-w-7xl mx-auto p-0">
                 <div
                     className="navbar-start ">
                     <Link

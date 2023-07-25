@@ -12,7 +12,7 @@ const MyProjectInfo = () => {
         if (singleData) {
             setData(singleData)
         }
-    }, [loader, param.id])
+    }, [loader, param.id]);
     return (
         <div>
             {data.id}

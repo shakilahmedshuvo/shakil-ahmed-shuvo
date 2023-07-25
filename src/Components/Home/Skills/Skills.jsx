@@ -8,11 +8,11 @@ const Skills = () => {
                 heading={"- Skills -"}
             ></SectionTitle>
             <div
-                className="max-w-7xl mx-auto py-8 rounded-lg my-10 grid grid-cols-2 lg:grid-cols-6 px-2 gap-2 bg-slate-100">
+                className="max-w-7xl mx-auto py-8 rounded-lg my-10 grid grid-cols-2 lg:grid-cols-6 px-2 gap-2">
                 {/* html */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const Skills = () => {
                 {/* css */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ const Skills = () => {
                 {/*  JAVASCRIPT */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const Skills = () => {
                 {/* BOOTSTRAP */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg" aria-h
@@ -103,7 +103,7 @@ const Skills = () => {
                 {/* TAILWIND */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +121,7 @@ const Skills = () => {
                 {/* daisy ui */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +141,7 @@ const Skills = () => {
                 {/* EXPRESS JS */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ const Skills = () => {
                 {/* NODE JS */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -273,7 +273,7 @@ const Skills = () => {
                 {/* MONGO DB */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -332,7 +332,7 @@ const Skills = () => {
                 {/* REACT */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -361,7 +361,7 @@ const Skills = () => {
                 {/* REACT ROUTER */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -381,7 +381,7 @@ const Skills = () => {
                 {/* FIREBASE */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -445,7 +445,7 @@ const Skills = () => {
                 {/* VERCEL */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -463,7 +463,7 @@ const Skills = () => {
                 {/* JWT */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -491,7 +491,7 @@ const Skills = () => {
                 {/* AXIOS */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -509,7 +509,7 @@ const Skills = () => {
                 {/* FIGMA */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -535,7 +535,7 @@ const Skills = () => {
                 {/* netlify */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"
@@ -555,7 +555,7 @@ const Skills = () => {
                 {/* vs code */}
                 <div
                     data-aos="zoom-in-up"
-                    className="border-white border-2 bg-white rounded-2xl py-4">
+                    className="border-white border-2 bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-2xl py-4">
                     <svg
                         className="mx-auto m-10"
                         xmlns="http://www.w3.org/2000/svg"

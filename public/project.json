@@ -1,6 +1,34 @@
 [
     {
         "id": 1,
+        "name": "College Hub",
+        "title": "College Website",
+        "shortInfo": "This is a College Hub Project using MERN stack.",
+        "img": "./college-hub.jpg",
+        "shortImg": "./collegeHubShort.png",
+        "liveLink": "https://college-hub-shs.web.app/",
+        "clientLink": "https://github.com/shakilahmedshuvo/college-hub-client",
+        "serverLink": "https://github.com/shakilahmedshuvo/college-hub-server",
+        "feature": {
+            "first": "Responsive Interface: The project is created while keeping the UI compatible for both Desktop and Mobile.",
+            "second": "Authentication: Normal registration as well as third-party authentications (Google) are used. There are certain routes that are accessible only after you login or register through any of the given options. Also, there are certain features that are only accessible if your role matches the requirement.",
+            "third": "Dynamic Data: Express.js & MongoDB is used for the CRUD operations."
+        },
+        "techIcon": {
+            "iconOne": "React Vite",
+            "iconTwo": "Tailwind Css",
+            "iconThree": "Daisy UI",
+            "iconFour": "Firebase",
+            "iconFive": "Vercel",
+            "iconSix": "Express js",
+            "iconSeven": "node js",
+            "iconEight": "mongo db",
+            "iconNine": "axios",
+            "iconTen": "jwt"
+        }
+    },
+    {
+        "id": 2,
         "name": "Art Summer Camp",
         "title": "Art Website",
         "shortInfo": "This is a Art Summer Camp Project using MERN stack.",
@@ -28,7 +56,7 @@
         }
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Kids Toy World",
         "title": "Toy Market",
         "shortInfo": "This is a Kids Toy World Project using React Router & This is a single page application",
@@ -51,7 +79,7 @@
         }
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Chef Zone",
         "title": "Chef Website",
         "shortInfo": "This is a Chef Zone Project Based on chef's.You can explore single page application",
@@ -64,6 +92,52 @@
             "first": "Responsive Interface: The project is created while keeping the UI compatible for both Desktop, Tablet, and Mobile.",
             "second": "Purpose: Chef Zone is a comprehensive platform that provides detailed information about chefs from various backgrounds and culinary expertise. ",
             "third": "Responsible: I was responsible for the client-side frontend part."
+        },
+        "techIcon": {
+            "iconOne": "React Vite",
+            "iconTwo": "html",
+            "iconThree": "css",
+            "iconFour": "js",
+            "iconFive": "Vercel"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Travel Guru",
+        "title": "Travel Guru Website",
+        "shortInfo": "This is a Travel Guru Project Based on Travel. You can explore single page application",
+        "img": "./travel-guru.jpg",
+        "shortImg": "./travelGuruShort.png",
+        "liveLink": "https://travel-guru-shs.web.app/",
+        "clientLink": "https://github.com/shakilahmedshuvo/travel-guru-client",
+        "serverLink": "",
+        "feature": {
+            "first": "Responsive Interface: The project is created while keeping the UI compatible for both Desktop, Tablet, and Mobile.",
+            "second": "Purpose: Travel Guru is a comprehensive platform that provides detailed information about Travel from various place.",
+            "third": "There are a very Good slider in the application"
+        },
+        "techIcon": {
+            "iconOne": "React Vite",
+            "iconTwo": "html",
+            "iconThree": "css",
+            "iconFour": "js",
+            "iconFive": "Vercel"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Ai Universe",
+        "title": "Ai Universe",
+        "shortInfo": "This is a Ai Universe Project Based on Ai Universe.You can explore single page application",
+        "img": "./ai-universe.jpg",
+        "shortImg": "./aiUniverseShort.png",
+        "liveLink": "https://effortless-praline-c866b4.netlify.app/",
+        "clientLink": "https://github.com/shakilahmedshuvo/AI-universe",
+        "serverLink": "",
+        "feature": {
+            "first": "Responsive Interface: The project is created while keeping the UI compatible for both Desktop, Tablet, and Mobile.",
+            "second": "Purpose: Ai Universe is a comprehensive platform that provides detailed information about Ai.",
+            "third": "It has more than 6 Ai services"
         },
         "techIcon": {
             "iconOne": "React Vite",
