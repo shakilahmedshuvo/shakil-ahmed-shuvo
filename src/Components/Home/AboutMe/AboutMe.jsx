@@ -54,18 +54,6 @@ const AboutMe = () => {
                             Shakilahmedshuvo612@gmail.com
                         </h2>
                     </div>
-                    <div
-                        data-aos="fade-up"
-                        className="rounded-2xl py-4 px-2">
-                        <p
-                            className="text-gray-600 my-2" >
-                            Phone Number :
-                        </p>
-                        <h2
-                            className="font-bold">
-                            +880 1902 991164
-                        </h2>
-                    </div>
                 </div>
             </div>
         </div>

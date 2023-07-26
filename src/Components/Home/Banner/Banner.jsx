@@ -86,10 +86,6 @@ const Banner = () => {
                                                 Email Adders :
                                                 <br />
                                                 Shakilahmedshuvo612@gmail.com
-                                                <br />
-                                                Phone :
-                                                <br />
-                                                +880 190299 1164
                                             </p>
                                             <span
                                                 className="modal-action">
@@ -128,7 +124,7 @@ const Banner = () => {
                         </a>
                         <div>
                             <button
-                              className="btn btn-outline border-2 border-black w-full font-bold hover:bg-black"
+                                className="btn btn-outline border-2 border-black w-full font-bold hover:bg-black"
                                 onClick={() => window.my_modal_2.showModal()}>
                                 <FiPhone className="text-xl font-bold" /> Contact
                             </button>
@@ -147,10 +143,6 @@ const Banner = () => {
                                         Email Adders :
                                         <br />
                                         Shakilahmedshuvo612@gmail.com
-                                        <br />
-                                        Phone :
-                                        <br />
-                                        +880 190299 1164
                                     </p>
                                     <span
                                         className="modal-action">

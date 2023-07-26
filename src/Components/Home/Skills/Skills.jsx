@@ -8,7 +8,7 @@ const Skills = () => {
                 heading={"- Skills -"}
             ></SectionTitle>
             <div
-                className="max-w-7xl mx-auto py-8 rounded-lg my-10 grid grid-cols-2 lg:grid-cols-6 px-2 gap-2">
+                className="max-w-7xl mx-auto py-8 rounded-lg my-10 grid grid-cols-3 lg:grid-cols-6 px-2 gap-2">
                 {/* html */}
                 <div
                     data-aos="zoom-in-up"
