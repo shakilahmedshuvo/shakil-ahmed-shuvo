@@ -9,28 +9,28 @@ const navBarItems =
     <>
         <li className="text-lg">
             <a
-                className="hover:text-blue-300 hover:text-2xl"
+                className="hover:text-blue-900 hover:text-2xl"
                 href="#home">
                 <FaHome /> Home
             </a>
         </li>
         <li className="text-lg">
             <a
-                className="hover:text-blue-300 hover:text-2xl"
+                className="hover:text-blue-900 hover:text-2xl"
                 href="#about">
                 <BsInfoCircleFill /> About
             </a>
         </li>
         <li className="text-lg">
             <a
-                className="hover:text-blue-300 hover:text-2xl"
+                className="hover:text-blue-900 hover:text-2xl"
                 href="#projects">
                 <FaChalkboardTeacher />Projects
             </a>
         </li>
         <li className="text-lg">
             <a
-                className="hover:text-blue-300 hover:text-2xl"
+                className="hover:text-blue-900 hover:text-2xl"
                 href="#contact">
                 <FaRegAddressBook />Contact
             </a>
@@ -120,7 +120,7 @@ const NavBar = () => {
                         </label>
                         <ul
                             tabIndex={0}
-                            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 relative right-0 bg-black">
+                            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 relative right-0 bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90%">
                             {navBarItems}
                         </ul>
                     </div>
