@@ -20,7 +20,7 @@ const AboutMe = () => {
                         alt="" />
                 </div>
                 <div
-                    className="my-12 lg:text-start text-center">
+                    className="my-10 lg:text-start text-center">
                     <div
                         data-aos="fade-up"
                         className="rounded-2xl px-2 py-3">
@@ -58,9 +58,9 @@ const AboutMe = () => {
                             <Link
                                 to="https://www.facebook.com/iamshakilahmedshuvo/"
                                 data-aos="zoom-out"
-                                className="flex items-center my-4 text-center mx-auto">
+                                className="flex items-center my-4 text-center mx-auto mr-5">
                                 <svg
-                                    className="lg:mx-3 mx-auto lg:mb-0 mb-3 mt-2"
+                                    className="lg:mx-3 lg:mb-0 mb-3 mt-2"
                                     xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256">
                                     <path
                                         fill="#1877F2" d="M256 128C256 57.308 198.692 0 128 0C57.308 0 0 57.307 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.347-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.958 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445" />
@@ -82,7 +82,7 @@ const AboutMe = () => {
                                 data-aos="zoom-out"
                                 className="flex items-center my-4 text-center mx-auto">
                                 <svg
-                                    className="lg:mx-3 mx-auto lg:mb-0 mt-2"
+                                    className="lg:mx-3 lg:mb-0 mb-3 mt-2"
                                     xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 128 128">
                                     <g
                                         fill="#181616">
@@ -108,7 +108,7 @@ const AboutMe = () => {
                                 className="flex items-center my-4 text-center mx-auto">
                                 {/* // className="lg:mx-3 mx-auto lg:mb-0 mb-3 mt-2" */}
                                 <svg
-                                    className="lg:mx-3 mx-auto lg:mb-0 mt-2"
+                                    className="lg:mx-3 lg:mb-0 mb-3 mt-2"
                                     width="25" height="25"
                                     viewBox="0 0 256 256"
                                     xmlns="http://www.w3.org/2000/svg">
