@@ -58,9 +58,9 @@ const NavBar = () => {
 
     return (
         <div
-            className="font-bold fixed z-10 w-full bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90%">
+            className="font-bold fixed z-10 w-full bg-black">
             <div
-                className="navbar text-gray-800 max-w-7xl mx-auto p-0">
+                className="navbar text-white max-w-7xl mx-auto p-0">
                 <div
                     className="navbar-start ">
                     <Link
@@ -120,7 +120,7 @@ const NavBar = () => {
                         </label>
                         <ul
                             tabIndex={0}
-                            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 relative right-0 bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90%">
+                            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 relative right-0 bg-black text-white">
                             {navBarItems}
                         </ul>
                     </div>

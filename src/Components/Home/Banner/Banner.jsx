@@ -61,7 +61,7 @@ const Banner = () => {
                                 {/* pdf download */}
                                 <a
                                     onClick={handleDownload}
-                                    className="flex btn bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90% text-gray-700 h-full">
+                                    className="flex btn bg-blue-500 text-white h-full hover:bg-blue-300">
                                     <TbDownload className="text-2xl font-bold" /> Download Resume
                                 </a>
                                 {/* modal section start */}
@@ -119,7 +119,7 @@ const Banner = () => {
                         {/* pdf download */}
                         <a
                             onClick={handleDownload}
-                            className="flex btn bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90% text-gray-700 h-full">
+                            className="flex btn bg-blue-500 text-white h-full hover:bg-blue-300">
                             <TbDownload className="text-3xl font-bold" /> Download Resume
                         </a>
                         <div>
