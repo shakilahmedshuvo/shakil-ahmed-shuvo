@@ -15,7 +15,7 @@ const AboutMe = () => {
                 className="grid lg:grid-cols-2">
                 <div>
                     <img
-                        data-aos="zoom-in"
+                        data-aos="zoom-out"
                         className="mx-auto w-[50%] rounded-full border-4 border-yellow-300 mt-16"
                         src={shakilImg}
                         alt="" />
@@ -23,7 +23,6 @@ const AboutMe = () => {
                 <div
                     className="mt-10 lg:mb-5 lg:text-start text-center">
                     <div
-                        data-aos="fade-up"
                         className="rounded-2xl px-2 py-3">
                         <h2
                             className="font-bold items-center">
@@ -31,7 +30,6 @@ const AboutMe = () => {
                         </h2>
                     </div>
                     <div
-                        data-aos="fade-up"
                         className="rounded-2xl px-2 py-3">
                         <h2
                             className="font-bold items-center">
@@ -39,7 +37,6 @@ const AboutMe = () => {
                         </h2>
                     </div>
                     <div
-                        data-aos="fade-up"
                         className="rounded-2xl px-2 py-3">
                         <h2
                             className="font-bold items-center">
@@ -57,7 +54,7 @@ const AboutMe = () => {
                             className="px-2 my-3 lg:mt-0 mt-10">
                             {/* facebook start */}
                             <Link
-                                data-aos="zoom-in"
+                                data-aos="zoom-out"
                                 to="https://www.facebook.com/iamshakilahmedshuvo"
                                 className="lg:flex items-center text-center my-2 py-1 rounded-xl hover:text-blue-600 hover:bg-blue-200 w-[36%]">
                                 <svg
@@ -86,7 +83,7 @@ const AboutMe = () => {
                             {/* facebook end */}
                             {/* git start */}
                             <Link
-                                data-aos="zoom-in"
+                                data-aos="zoom-out"
                                 to="https://github.com/shakilahmedshuvo"
                                 className="lg:flex items-center text-center my-2 py-1 rounded-xl hover:text-blue-600 hover:bg-blue-200 w-[36%]">
                                 <svg
@@ -116,7 +113,7 @@ const AboutMe = () => {
                             {/* git end */}
                             {/* linkedin start */}
                             <Link
-                                data-aos="zoom-in"
+                                data-aos="zoom-out"
                                 to="https://www.linkedin.com/in/shakil-ahmed-408391271/"
                                 className="lg:flex items-center text-center my-2 py-1 rounded-xl hover:text-blue-600 hover:bg-blue-200 w-[36%]">
                                 <svg

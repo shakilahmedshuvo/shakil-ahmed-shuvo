@@ -10,7 +10,7 @@ const MyProjectsCard = ({ data }) => {
     return (
         <div
             data-aos="zoom-out-up"
-            className="drop-shadow-md bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90%">
+            className="drop-shadow-md bg-gradient-to-r from-blue-50 from-10% via-30% to-purple-50 to-90% rounded-xl">
             <div
                 className="card-container mx-auto">
                 <img
@@ -51,7 +51,7 @@ const MyProjectsCard = ({ data }) => {
                     className="px-2 mt-7 mb-3">
                     <Link
                         to={`cardInfo/${id}`}
-                        className="btn w-[100%] mx-auto items-center bg-gradient-to-r from-blue-300 from-10% via-30% to-purple-200 to-90% text-gray-700 hover:bg-blue-400 mb-4">
+                        className="btn w-[95%] mx-auto items-center bg-black text-white mb-4 flex justify-center hover:text-black">
                         View More Details <MdOutlineKeyboardDoubleArrowRight className="text-3xl" />
                     </Link>
                 </div>
