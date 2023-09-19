@@ -19,7 +19,7 @@ const MyProjectsCard = ({ data }) => {
                     alt="" />
             </div>
             <h2
-                className="text-center text-3xl font-bold relative bottom-6">
+                className="text-center text-2xl lg:text-3xl font-bold relative bottom-6">
                 {name}
             </h2>
             {/* link section */}
