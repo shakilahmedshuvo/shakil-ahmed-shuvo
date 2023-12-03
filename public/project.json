@@ -106,7 +106,7 @@
         "name": "Chef Zone",
         "title": "Chef Website",
         "shortInfo": "This is a Chef Zone Project Based on chef's.You can explore single page application",
-        "img": "./ChefZoneImg.jpg",
+        "img": "./ChefZoneImg.png",
         "shortImg": "./ChefZoneShort.png",
         "liveLink": "https://chef-zone-client.web.app/",
         "clientLink": "https://github.com/shakilahmedshuvo/Chef-zone-client",

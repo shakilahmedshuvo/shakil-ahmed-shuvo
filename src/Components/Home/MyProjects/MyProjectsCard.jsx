@@ -1,11 +1,11 @@
 import { TbExternalLink } from "react-icons/tb";
 import { BsGithub } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+// import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 const MyProjectsCard = ({ data }) => {
     // const { name, shortInfo, img, liveLink, clientLink, serverLink, feature, techIcon, title } = data;
-    const { id, name, img, liveLink, clientLink, serverLink } = data;
+    const { name, img, liveLink, clientLink, serverLink } = data;
 
     return (
         <div
@@ -45,14 +45,6 @@ const MyProjectsCard = ({ data }) => {
                         to={serverLink}
                         className="flex mx-auto hover:text-blue-600 hover:bg-blue-100 py-2 rounded-lg">
                         Server Site <BsGithub className="text-xl ms-2" />
-                    </Link>
-                </div>
-                <div
-                    className="px-2 mt-7 mb-3">
-                    <Link
-                        to={`cardInfo/${id}`}
-                        className="btn w-[95%] mx-auto items-center bg-black text-white mb-4 flex justify-center hover:text-black">
-                        View More Details <MdOutlineKeyboardDoubleArrowRight className="text-3xl" />
                     </Link>
                 </div>
             </div>

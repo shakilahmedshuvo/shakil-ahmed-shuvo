@@ -14,7 +14,7 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_qqwd2hf',
+            'service_ztbhhyr',
             'template_39elj6s',
             form.current,
             'SRnTAkpey90_X63NF')
@@ -32,6 +32,7 @@ const Contact = () => {
                 (error) => {
                     console.log(error.text);
                 });
+        e.target.reset();
     };
 
     return (
@@ -120,11 +121,11 @@ const Contact = () => {
 
                             </div>
                             {/* input btn */}
-                            <div
+                            <button
                                 type="submit"
-                                className="btn px-20 ms-8 mb-6 bg-black lg:w-[90%] w-[80%] text-white hover:text-black">
-                                Send Email<BiSend className="text-xl flex items-center justify-center mr-1" />
-                            </div>
+                                className="btn px-20 ms-8 mb-6 bg-black lg:w-[90%] w-[80%] text-white hover:text-black duration-300 cursor-pointer">
+                                Send Email<BiSend className="text-xl flex items-center justify-center ms-1" />
+                            </button>
                         </form>
                         {/* form section end */}
                     </div>
