@@ -1,34 +1,32 @@
 import { Link } from "react-router-dom";
-import { FaHome, FaChalkboardTeacher, FaRegAddressBook } from "react-icons/fa";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import { BsInfoCircleFill } from "react-icons/bs";
 import { useEffect, useState } from "react";
 
 // nav item 
 const navBarItems =
     <>
-        <li className="text-lg">
+        <li className="text-base">
             <a
                 href="#home">
-                <FaHome /> Home
+                Home
             </a>
         </li>
-        <li className="text-lg">
+        <li className="text-base">
             <a
                 href="#about">
-                <BsInfoCircleFill /> About
+                About
             </a>
         </li>
-        <li className="text-lg">
+        <li className="text-base">
             <a
                 href="#projects">
-                <FaChalkboardTeacher />Projects
+                Projects
             </a>
         </li>
-        <li className="text-lg">
+        <li className="text-base">
             <a
                 href="#contact">
-                <FaRegAddressBook />Contact
+                Contact
             </a>
         </li>
     </>
@@ -58,12 +56,12 @@ const NavBar = () => {
             <div
                 className="navbar text-white max-w-7xl mx-auto p-0">
                 <div
-                    className="navbar-start ">
+                    className="navbar-start">
                     <Link
                         to='/'
-                        className="btn btn-ghost normal-case text-3xl font-bold text-center">
+                        className="btn btn-ghost normal-case text-2xl font-bold text-center">
                         Shakil Ahmed<span
-                            className="text-2xl font-normal relative top-3 right-1">
+                            className="text-xl font-normal relative top-3 right-1">
                             &#174;
                         </span>
                     </Link>
@@ -71,7 +69,7 @@ const NavBar = () => {
                 <div
                     className="navbar-center hidden lg:flex">
                     <ul
-                        className="menu menu-horizontal px-1">
+                        className="menu menu-horizontal px-1 text-sm font">
                         {navBarItems}
                     </ul>
                 </div>
@@ -87,9 +85,9 @@ const NavBar = () => {
                                 ?
                                 false : true} />
                         <div
-                            className="swap-on">
+                            className="swap-on cursor-pointer">
                             <svg
-                                className="fill-current w-8 h-8 mx-auto"
+                                className="fill-current w-7 h-7 mx-auto"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24">
                                 <path
@@ -99,7 +97,7 @@ const NavBar = () => {
                         <div
                             className="swap-off">
                             <svg
-                                className="fill-current w-8 h-8 mx-auto"
+                                className="fill-current w-7 h-7 mx-auto"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24">
                                 <path

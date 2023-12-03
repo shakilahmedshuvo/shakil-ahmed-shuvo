@@ -51,7 +51,7 @@ const Banner = () => {
                             style={{ fontSize: '2em', display: 'inline-block' }}
                             repeat={Infinity} />
                         <p
-                            className="pt-2 lg:pb-10 sm:pb-0 text-base font-medium text-gray-600">
+                            className="pt-2 lg:pb-8 sm:pb-0 text-base font-medium text-gray-600">
                             I am a junior web developer. Who can provide full service of web development, specializing in HTML, CSS ,JAVASCRIPT, BOOTSTRAP, TAILWIND CSS, REACT, NODE JS ,EXPRESS JS, FIREBASE & MONGO DB. Also build custom responsive websites for clients.
                         </p>
                         <div
