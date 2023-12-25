@@ -3,8 +3,8 @@ const FacebookIcon = () => {
         <>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="256"
-                height="256"
+                width="35"
+                height="35"
                 viewBox="0 0 256 256">
                 <path
                     fill="#1877F2"

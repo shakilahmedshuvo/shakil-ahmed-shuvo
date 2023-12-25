@@ -3,8 +3,8 @@ const LinkedinIcon = () => {
         <>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="128"
-                height="128"
+                width="35"
+                height="35"
                 viewBox="0 0 128 128">
                 <path
                     fill="#0076b2"

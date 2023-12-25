@@ -3,8 +3,8 @@ const GitHubIcon = () => {
         <>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="128"
-                height="128"
+                width="35"
+                height="35"
                 viewBox="0 0 128 128">
                 <g
                     fill="#181616">
